@@ -19,6 +19,7 @@ const formController = ((view, model) => {
     return {
         init: () => {
             setupEventListeners();
+            alert("Здравствуйте!\nКак только отправите необходимое количество заявок,\nпереходите на страницу со всеми заявками\n02-crm-all-bids.html")
         }
     }
 

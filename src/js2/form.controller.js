@@ -19,7 +19,7 @@ const formController = ((view, model) => {
     return {
         init: () => {
             setupEventListeners();
-            alert("Здравствуйте!\nКак только отправите необходимое количество заявок,\nпереходите на страницу со всеми заявками\nдля этого Вам необходимо в адресной строке браузера\nhttps://maksimfyodorov.github.io/crm/01-form.html\nзаменить 01-form.html на bids.html")
+            alert("Здравствуйте!\nКак только отправите необходимое количество заявок,\nпереходите на страницу со всеми заявками\nдля этого Вам нужно в адресной строке браузера\nhttps://maksimfyodorov.github.io/crm/01-form.html\nзаменить 01-form.html на bids.html")
         }
     }
 

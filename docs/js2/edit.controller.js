@@ -29,7 +29,7 @@ const editController = ((view, model) => {
 		const element = e.target.closest('[data-status]');
 		const status = element.dataset.status;
 		model.updateFilter('status', status);
-        location.href = "02-crm-all-bids.html";
+        location.href = "bids.html";
     }
 
     return {
